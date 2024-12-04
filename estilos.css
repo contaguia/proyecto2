@@ -1,0 +1,118 @@
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+p {
+    color: rgb(23, 24, 23);
+}
+.titulos {
+    color: rgb(50, 33, 78);
+}
+#parrafo1 {color: brown;}
+.categoria {
+    font-size: 100%;
+    letter-spacing: 16px;
+    
+}
+#contable {
+    letter-spacing: 20px;
+}
+.servicios {color: black;}
+#seccion1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 2px solid; color: darkgoldenrod;
+    background-color: coral;
+    
+}
+#seccion2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    padding: 10px;
+    border: 5px solid; color: rgb(178, 11, 184);
+    background-color: rgb(80, 255, 118);
+}
+
+ .contenedor {
+        display: flex;
+    }
+
+    .item {
+        background-position: 15%;
+    }
+    .item2 {
+        background-position: 50%;
+        background-color: blueviolet;
+        background-image: -moz-element(coral);
+    }
+    .central {letter-spacing: 23%;
+    width: 300;
+    margin-bottom: 43%;
+    border-style: dotted;
+    justify-self: center;
+}
+.grid-item{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 90px;
+    }
+    .grid-item2{
+        background-color: rgb(255, 244, 240);
+        text-align: justify;
+        }
+
+        @media(max-width : 600px){
+         .contenedor{
+            flex-direction: column;
+         }   
+        }
+        table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+    th {
+        background-color: #f4f4f4;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    form label {
+        margin-bottom: 10px;
+    }
+    form input, form textarea {
+        margin-bottom: 10px;
+        padding: 1px;
+        font-size: 14px;
+        color: rgb(55, 0, 255);
+    }
+    form imput [type=submit]{
+        background: rgb(134, 223, 181);
+        color: rgb(241, 18, 18);
+        cursor: pointer;
+        font-size: small;
+    }
+
+    select{
+        width: 30%;
+    }
+
+    .formulario{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #sobremi{
+        color: blue;
+    }
